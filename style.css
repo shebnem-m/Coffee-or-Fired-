@@ -1,0 +1,21 @@
+#player {
+    width: 50px; height: 50px;
+    background-image: url('player.png');
+    background-size: cover; /* Şəkli kvadrata uyğunlaşdırır */
+    position: absolute;
+    top: 185px; left: 285px;
+}
+
+.boss { 
+    width: 50px; height: 50px; 
+    background-image: url('boss.png');
+    background-size: cover;
+    position: absolute; 
+}
+
+.machine { 
+    width: 50px; height: 50px; 
+    background-image: url('machine.png');
+    background-size: cover;
+    position: absolute; 
+}
