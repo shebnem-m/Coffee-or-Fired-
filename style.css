@@ -125,7 +125,7 @@ body {
 #gameCanvas { display: block; border: 4px solid var(--border); image-rendering: pixelated; }
 #level-up-banner {
   position: absolute;
-  top: -60px; /* Əvvəlcə gizlin qalır */
+  top: -60px; /* First of all, it is hidden*/
   left: 50%;
   transform: translateX(-50%);
   background: linear-gradient(45deg, #f1c40f, #e67e22);
@@ -137,9 +137,9 @@ body {
   border-radius: 0 0 10px 10px;
   box-shadow: 0 4px 15px rgba(230, 126, 34, 0.5);
   z-index: 999;
-  transition: top 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Elastik eniş effekti */
+  transition: top 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #level-up-banner.show {
-  top: 0; /* Ekrana daxil olur */
+  top: 0; 
 }
