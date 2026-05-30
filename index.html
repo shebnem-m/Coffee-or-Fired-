@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Office vs Coffee Machine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <div id="start-screen" class="screen active">
+    <div class="screen-box">
+      <h1 class="game-title">☕ OFFICE<br><span>vs</span><br>COFFEE MACHINE</h1>
+      <div class="high-score-display">HIGH SCORE: <span id="start-high-score">0</span></div>
+      
+      <div class="menu-buttons">
+        <button id="start-btn" class="btn">▶ NEW GAME</button>
+        <button id="continue-btn" class="btn locked">⏩ CONTINUE</button>
+        <button id="levels-btn" class="btn">🗺️ LEVELS</button>
+      </div>
+
+      <div id="level-selection" class="hidden">
+        <h3>SELECT LEVEL:</h3>
+        <div class="level-list">
+          <button class="lvl-btn" data-lvl="1">Rank 1: Intern</button>
+          <button class="lvl-btn" data-lvl="3">Rank 2: Junior</button>
+          <button class="lvl-btn" data-lvl="5">Rank 3: Middle</button>
+          <button class="lvl-btn" data-lvl="7">Rank 4: Senior</button>
+          <button class="lvl-btn" data-lvl="9">Rank 5: Lead</button>
+        </div>
+      </div>
+
+      <div class="controls-hint">
+        <span>W</span><span>A</span><span>S</span><span>D</span> to move
+      </div>
+    </div>
+  </div>
+ 
+  <div id="game-screen" class="screen">
+    <div id="level-up-banner" class="hidden-banner">LEVEL UP!</div>
+    <div id="hud">
+      <div id="score-display">SCORE: <span id="score">0</span> <span id="combo-display"></span></div>
+      <div id="level-display">LVL: <span id="current-level">1</span></div>
+      <div id="coffee-bar-wrap">
+        ☕ COFFEE:
+        <div id="coffee-bar-bg">
+          <div id="coffee-bar"></div>
+        </div>
+      </div>
+      <div id="active-powerup">ACTIVE: NONE</div>
+      <div id="high-score-display">HIGH SCORE: <span id="high-score">0</span></div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+  </div>
+ 
+  <div id="gameover-screen" class="screen">
+    <div class="screen-box">
+      <h2 class="gameover-title">☠ GAME OVER</h2>
+      <div class="result-line">SCORE: <span id="final-score">0</span></div>
+      <div class="result-line">HIGH SCORE: <span id="final-high-score">0</span></div>
+      <button id="restart-btn" class="btn">↺ RESTART</button>
+    </div>
+  </div>
+ 
+  <script src="game.js"></script>
+</body>
+</html>
