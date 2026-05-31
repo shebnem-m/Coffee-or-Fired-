@@ -118,7 +118,7 @@ This document logs my journey building "Office Overload" using three different A
    3. Dual End-Screen Options: In the Game Over screen, I added two buttons:
     
    * CONTINUE: Loads the saved level (from LocalStorage) but resets score.
-   * 
+
    * RESTART: Resets everything to Level 1 and returns to the Main Menu.
      
 **Why?** The banner keeps players engaged by rewarding them visually. The dual buttons give players agency: they can either push for a higher high score (Restart) or enjoy their unlocked content (Continue).
