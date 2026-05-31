@@ -152,7 +152,7 @@ This document logs my journey building "Office Overload" using three different A
 
 **Solution:**
 
-    1. **Adjusted Drain Rate:** I lowered the base `COFFEE_DRAIN_RATE` from `0.015` to `0.007` and reduced the scaling factor per level. This gives players more time to strategize.
+  1. **Adjusted Drain Rate:** I lowered the base `COFFEE_DRAIN_RATE` from `0.015` to `0.007` and reduced the scaling factor per level. This gives players more time to strategize.
     
    2. **Boss Scaling:** Instead of just increasing speed, I made the number of bosses scale with the level (`for(let i=0; i < currentLevel + 1; i++) spawnBoss()`). This creates a chaotic but manageable crowd rather than just one super-fast enemy.
     
