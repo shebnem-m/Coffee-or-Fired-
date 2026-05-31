@@ -48,9 +48,11 @@ Play the game here: [Insert Your GitHub Pages URL Here] 🔗
 
 ## 8. 🐛 Known Bugs & Improvements
 * **Known Bugs:** *Currently, collision detection can be sensitive during high-speed boss movement.* ⚠️
+* **Optimization:** *Fine-tuning collision detection for complex boss movements.
 * **Future Improvements:** * Add a "Focus Mode" triggered by the `Spacebar`. ⌨️
     * Increase Boss speed as the score grows. 📈
-    * Add visual "Low Energy" effects! ⚡
+    * Add background office-ambience audio. 🎵
+    * Global Leaderboard integration. 🏆
 
 ---
-*Developed as an individual project to master DOM manipulation and game logic. ⭐ If you like this project, don't forget to give it a star!*
+*Developed with ❤️ to master Vanilla JavaScript and Game Logic. ⭐ If you like this project, don't forget to give it a star!*
