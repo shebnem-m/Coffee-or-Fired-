@@ -131,7 +131,7 @@ This document logs my journey building "Office Overload" using three different A
 
 **Problem:** Initially, the "Continue" button was always visible, which confused new players who had no saved progress.
 
-**Solution:** I implemented a logic check in `window.onload` and `updateContinueButtonVisibility()`.
+**Solution:**  I implemented a logic check in `window.onload` and `updateContinueButtonVisibility()`.
 
    * The function checks localStorage.getItem('officeVsCoffee_savedLevel').
      
@@ -151,6 +151,7 @@ This document logs my journey building "Office Overload" using three different A
 **Problem:** Playtesting revealed that the initial `COFFEE_DRAIN_RATE` was too high for higher levels. Players would reach "Lead Dev" rank but die instantly due to energy depletion, making the win condition unreachable.
 
 **Solution:**
+
     1. **Adjusted Drain Rate:** I lowered the base `COFFEE_DRAIN_RATE` from `0.015` to `0.007` and reduced the scaling factor per level. This gives players more time to strategize.
     
    2. **Boss Scaling:** Instead of just increasing speed, I made the number of bosses scale with the level (`for(let i=0; i < currentLevel + 1; i++) spawnBoss()`). This creates a chaotic but manageable crowd rather than just one super-fast enemy.
