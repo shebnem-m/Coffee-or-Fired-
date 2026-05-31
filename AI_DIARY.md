@@ -3,7 +3,7 @@
 This document logs my journey building "Office Overload" using three different AI tools (**Gemini**, **Claude**, and **Qwen**) and the design decisions behind them. It details the challenges faced, the solutions implemented, and the lessons learned during development.
 
 
-**[May 26, 2024] - Visualizing the Game Concept with Gemini**
+**[May 26, 2026] - Visualizing the Game Concept with Gemini**
 
 **What I asked the AI:** "Describe a top-down office survival game where a developer avoids bosses and collects coffee."
 
@@ -16,7 +16,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~15 minutes.
 
 
-**[May 27, 2024] - Initial Code Structure with Claude**
+**[May 27, 2026] - Initial Code Structure with Claude**
 
 **What I asked the AI:** "Generate HTML, CSS, and JS code for this game using Canvas API based on the description."
 
@@ -31,7 +31,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~45 minutes.
 
 
-**[May 27, 2024] - The Failed Pure-DOM Attempt & Switch to Hybrid**
+**[May 27, 2026] - The Failed Pure-DOM Attempt & Switch to Hybrid**
 
 **What I asked the AI:** "Refactor this code to use only DOM manipulation for all entities as per my initial plan."
 
@@ -48,7 +48,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~1.5 hours.
 
 
-**[May 28, 2024] - Balancing Gameplay: Coffee & Combo System**
+**[May 28, 2026] - Balancing Gameplay: Coffee & Combo System**
 
 **What I asked the AI:** "How can I make the coffee collection mechanic more engaging than just random spawns?"
 
@@ -67,7 +67,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~30 minutes.
 
 
-**[May 29, 2024] - User Retention: Continue Feature & Career Progression**
+**[May 29, 2026] - User Retention: Continue Feature & Career Progression**
 
 **What I asked the AI:** "How can I prevent players from getting frustrated by restarting from Level 1 every time?"
 
@@ -86,7 +86,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~40 minutes.
 
 
-**[May 29, 2024] - Implementing Persistent State with LocalStorage**
+**[May 29, 2026] - Implementing Persistent State with LocalStorage**
 
 **What I asked the AI:** "How can I allow players to continue from their last level after closing the browser or losing?"
 
@@ -103,7 +103,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~37 minutes.
 
 
-**[May 30, 2024] - Visual Feedback & Win Condition Logic**
+**[May 30, 2026] - Visual Feedback & Win Condition Logic**
 
 **What I asked the AI:** "How can I provide immediate visual feedback when a player levels up, and how should the game end when they reach the top rank?"
 
@@ -125,7 +125,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~40 minutes.
 
 
-**[May 30, 2024] - UI Logic: Locking the Continue Button**
+**[May 30, 2026] - UI Logic: Locking the Continue Button**
 
 **What I asked the AI:** "How can I ensure the 'Continue' button is disabled when a player starts the game for the first time?"
 
@@ -144,7 +144,7 @@ This document logs my journey building "Office Overload" using three different A
 **Time spent:** ~15 minutes.
 
 
-**[May 31, 2024] - Balancing Difficulty & Boss Scaling**
+**[May 31, 2026] - Balancing Difficulty & Boss Scaling**
 
 **What I asked the AI:** "The game becomes impossible at Level 10+ because coffee drains too fast and bosses are too numerous."
 
