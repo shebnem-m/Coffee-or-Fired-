@@ -110,11 +110,12 @@ This document logs my journey building "Office Overload" using three different A
 **Problem:** Players didn't always notice when they leveled up because the HUD text change was subtle. Also, reaching Level 15 needed a special celebration.
 
 **Solution:**
-    1. Level-Up Banner: I created a hidden `div` (`#level-up-banner`) that slides down from the top of the screen whenever `currentLevel` increments. It displays the new Rank (e.g., "🚀 LEVEL UP: SENIOR DEV") and disappears after 2 seconds using `setTimeout`. This uses CSS transitions for smooth animation without pausing the game loop.
+
+   1. Level-Up Banner: I created a hidden `div` (`#level-up-banner`) that slides down from the top of the screen whenever `currentLevel` increments. It displays the new Rank (e.g., "🚀 LEVEL UP: SENIOR DEV") and disappears after 2 seconds using `setTimeout`. This uses CSS transitions for smooth animation without pausing the game loop.
     
-    2. Win Condition: I added a check in `checkCollisions()`: `if (currentLevel >= 15 && !hasWonToday)`. If true, it triggers `triggerWinGame()`.
+   2. Win Condition: I added a check in `checkCollisions()`: `if (currentLevel >= 15 && !hasWonToday)`. If true, it triggers `triggerWinGame()`.
     
-    3. Dual End-Screen Options: In the Game Over screen, I added two buttons:
+   3. Dual End-Screen Options: In the Game Over screen, I added two buttons:
     
    * CONTINUE: Loads the saved level (from LocalStorage) but resets score.
    * 
